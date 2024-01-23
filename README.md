@@ -1,29 +1,46 @@
-# Challenge 13
+# E-Commerce-Back-End
 
-https://drive.google.com/file/d/1Odjc2aMmt2nR4JhQSYWk1k81NduQI8Yt/view 
-
-## Description
-
-This is a command line application built to help you manage your items at your store. You can delete, update and add anything to your store such as tags, products, etc. Overall i struggeled little bit with the routes. But then relized what i did wrong and switched then all to async and its working good now.
+A command line application used for managing your store. Add, update, and delete products, tags, and employees. Made with MySql and expressJS for managing the database.
 
 ## Installation
 
-Follow these steps to launch the application
-1. npm install
-2. source the schema
-3. npm run seed
-4. npm start
+- Video Demo: [E-Commerce-Back-End](https://drive.google.com/file/d/1Odjc2aMmt2nR4JhQSYWk1k81NduQI8Yt/view)
 
-## Usage
+1. **Clone the repository**
+   - git clone https://github.com/csutrick/E-Commerce-Back-End
 
-Hit the different end points. You can add, update, and delete any categories, tags, and prodcuts that you want. Just hit the end point with the json data you want to send and you can add or update. If you want to delete just send the delete request to the correct endpoint with the right ID.
+2. **Navigate to project directory**
+   - cd E-Commerce-Back-End
+
+3. **Install**
+   - npm install
+
+4. **Set up sql**
+   - mysql -u root -p
+   - enter your password
+
+5. **Setup sql**
+   - source db/schema.sql
+   - quit
+
+6. **Run seeds**
+   - npm run seed
+
+6. **Start Application**
+   - npm start
+
+## Usages
+
+Hit the different end points as needed. You can add, update, and delete any categories, tags, and products that you want. Just hit the end point with the json data you want to send and you can add or update. If you want to delete just send the delete request to the correct endpoint with the right ID.
 
 ## Credits
 
-Cole Sutrick
-https://sequelize.org/docs/v6/core-concepts/model-querying-finders/ 
+[Sequelize Docs](https://sequelize.org/docs/v6/core-concepts/model-querying-finders/)
 
-## License
+## Contact
 
-MIT
-Please refer to the LICENSE in the repo.
+If you'd like to get in touch, discuss a potential project, or just have a chat about web development, feel free to reach out to me:
+
+- Portfolio: [csutrick Portfolio](https://github.com/csutrick/personal-portfolio)
+
+Thank you for visiting my project!
